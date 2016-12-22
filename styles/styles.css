@@ -6,7 +6,9 @@
 
 body {
   border: 1px solid red;
-  margin: 0;
+  margin: 0 auto 0 auto;
+  min-width: 1048px;
+  max-width: 1350px;
 }
 
 .container {
@@ -20,8 +22,8 @@ body {
 */
 
 .nav-wrapper {
-  margin: auto;
-  width: 1030px;
+  margin: 18px auto 0 auto;
+  width: 1030px; 
 }
 
 .nav {
@@ -86,14 +88,22 @@ body {
 
 .nav li {
   display: inline-block;
-  background-color: pink;
+  background-color: #333;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+transition-duration: 0.3s;
+transition-property: width;
   width:110px;
   height: 40px;
   vertical-align: top; 
 }
 
-.nav ul:first {
+.nav li:first-of-type {
   background-color: blue;
+}
+
+.nav li:last-of-type {
+  background-color: yellow;
 }
 
 /*
