@@ -6,9 +6,9 @@
 
 body {
   border: 1px solid red;
-  margin: 0 auto 0 auto;
+  margin: auto;
   min-width: 1048px;
-  max-width: 1350px;
+  max-width: 1440px;
 }
 
 .container {
@@ -22,8 +22,9 @@ body {
 */
 
 .nav-wrapper {
-  margin: 18px auto 0 auto;
+  margin: auto;
   width: 1030px; 
+  padding-top: 15px;
 }
 
 .nav {
@@ -113,9 +114,13 @@ transition-property: width;
 */
 
 .main-section {
-  height: 540px;
+  height: 538px;
+  position: relative;
+  overflow: hidden;
   /*background-color: blue;*/
+  background: url('../images/your_verse_hero.jpeg') no-repeat center -768px;
 }
+
 
 /*
  *****************************************
