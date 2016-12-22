@@ -5,7 +5,7 @@
 */
 
 body {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   margin: auto;
   min-width: 1048px;
   max-width: 1440px;
@@ -131,7 +131,16 @@ transition-property: width;
 .columns {
   position: relative;
   display: inline-block;
+  overflow: hidden;
   height: 200px;
-  width: 24.7%;
-  background-color: yellow;
+  width: 25%;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+          box-sizing: border-box;
+     -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.four {
+  border-right: none;
 }
